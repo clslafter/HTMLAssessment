@@ -1,0 +1,70 @@
+h2, h3, h4, h5 {
+  color: purple;
+  font-family: Comic Sans MS;
+}
+
+table, th, td {
+  border: 1px solid;
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+  color: maroon;
+}
+
+table {
+  width: 50%
+}
+
+#teamRoster li {
+  list-style-type: square;
+}
+
+[href]:hover {
+  background-color: orange;
+  text-decoration: none;
+}
+
+blockquote {
+  background-color: purple;
+  color: white;
+}
+
+
+ul#teamRoster > li:first-child {
+  background-color: rgba(255, 255, 255, 0.7);
+  background-blend-mode: color;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain
+}
+
+ul#teamRoster > li:last-child {
+  background-color: rgba(255, 255, 255, 0.7);
+  background-blend-mode: color;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+img {
+  display: none;
+}
+
+ul#checkbox-grid li{
+  list-style-type: none;
+}
+
+ul#teamRoster > li > ul > li > ol >li:first-child {
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: purple;
+  color: white;
+}
+
+tr:nth-child(even) > th {
+  color: white;
+}
